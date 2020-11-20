@@ -7,5 +7,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/hb_student_tracker</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hb-01-one-to-one-uni@localhost" uuid="c8f64efb-ecec-411d-9f56-37a317e7d089">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/hb-01-one-to-one-uni</jdbc-url>
+    </data-source>
   </component>
 </project>

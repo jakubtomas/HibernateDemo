@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="HibernateDemo" value="6e40d9dc-03e2-4935-8e17-965a01c1308c" />
+          <factory-entry name="HibernateDemo" value="c8f64efb-ecec-411d-9f56-37a317e7d089" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -30,6 +30,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
           <unit-entry name="sk:it:hibernate.cfg.xml" />
           <unit-entry name="src:hibernate.cfg.xml" />
         </datasource-map>
