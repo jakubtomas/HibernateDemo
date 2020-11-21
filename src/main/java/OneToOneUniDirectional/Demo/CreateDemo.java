@@ -1,11 +1,10 @@
-package OneToOne.Demo;
+package OneToOneUniDirectional.Demo;
 
-import OneToOne.hibernate.entity.Instructor;
-import OneToOne.hibernate.entity.InstructorDetail;
+import OneToOneUniDirectional.hibernate.entity.Instructor;
+import OneToOneUniDirectional.hibernate.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import sk.it.hibernate.entity.Student;
 
 public class CreateDemo {
     public static void main(String[] args) {

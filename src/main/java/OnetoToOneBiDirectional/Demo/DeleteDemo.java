@@ -1,8 +1,7 @@
-package OneToOne.Demo;
+package OnetoToOneBiDirectional.Demo;
 
-import OneToOne.hibernate.entity.Instructor;
-import OneToOne.hibernate.entity.InstructorDetail;
-
+import OnetoToOneBiDirectional.entity.Instructor;
+import OnetoToOneBiDirectional.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

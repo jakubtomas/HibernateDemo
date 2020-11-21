@@ -1,4 +1,4 @@
-package OneToOne.hibernate.entity;
+package OneToOneUniDirectional.hibernate.entity;
 
 import javax.persistence.*;
 
