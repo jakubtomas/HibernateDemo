@@ -7,7 +7,13 @@ import javax.persistence.*;
 public class InstructorDetail {
 
     // new line Bi directional
-    @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
+ //   @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
+
+    // Only delete InstructorDetail Keep the Instructor
+
+     @OneToOne(mappedBy = "instructorDetail",
+     cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST ,
+     CascadeType.REFRESH})
     private Instructor instructor;
 
     public Instructor getInstructor() {
