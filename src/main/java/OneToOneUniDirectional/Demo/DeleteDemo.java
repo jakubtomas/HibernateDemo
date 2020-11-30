@@ -26,7 +26,7 @@ public class DeleteDemo {
                 session.beginTransaction();
 
                 // get instructor by primary key
-                int theId = 2;
+                int theId = 1;
                 Instructor tempInstructor = session.get(Instructor.class, theId);
 
                 //delete the instructors

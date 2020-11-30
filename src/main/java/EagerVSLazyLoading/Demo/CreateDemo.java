@@ -1,7 +1,7 @@
-package OnetoToOneBiDirectional.Demo;
+package EagerVSLazyLoading.Demo;
 
-import OnetoToOneBiDirectional.entity.Instructor;
-import OnetoToOneBiDirectional.entity.InstructorDetail;
+import EagerVSLazyLoading.entity.Instructor;
+import EagerVSLazyLoading.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -21,7 +21,7 @@ public class CreateDemo {
 
             try{
 
-                Instructor tempInstructor = new Instructor("worodd", "Pista", "email@gmail.com");
+                Instructor tempInstructor = new Instructor("chad ", "Pista", "email@gmail.com");
                 InstructorDetail tempInstructorDetail = new InstructorDetail("https://www.youtube.com/watch?v=HW-heSo9580" , "hockey");
 
                 tempInstructor.setInstructorDetail(tempInstructorDetail);

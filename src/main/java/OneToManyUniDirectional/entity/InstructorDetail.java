@@ -1,7 +1,4 @@
-package OneToMany.entity;
-
-import javax.persistence.*;
-
+package OneToManyUniDirectional.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

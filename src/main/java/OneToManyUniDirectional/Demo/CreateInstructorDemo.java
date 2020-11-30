@@ -1,19 +1,14 @@
-package OneToMany.Demo;
+package OneToManyUniDirectional.Demo;
 
-import OneToMany.entity.Course;
-import OneToMany.entity.Instructor;
-import OneToMany.entity.InstructorDetail;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-/*
-
-import com.luv2code.hibernate.demo.entity.Course;
-import com.luv2code.hibernate.demo.entity.Course;
-import com.luv2code.hibernate.demo.entity.Instructor;
-import com.luv2code.hibernate.demo.entity.InstructorDetail;
-*/
+import OneToManyUniDirectional.entity.Course;
+import OneToManyUniDirectional.entity.Instructor;
+import OneToManyUniDirectional.entity.InstructorDetail;
+import OneToManyUniDirectional.entity.Review;
 
 public class CreateInstructorDemo {
 

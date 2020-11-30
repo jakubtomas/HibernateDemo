@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MariaDB - hb_student_tracker@localhost" uuid="6e40d9dc-03e2-4935-8e17-965a01c1308c">
-      <driver-ref>mariadb</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3306/hb_student_tracker</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="hb-01-one-to-one-uni@localhost" uuid="c8f64efb-ecec-411d-9f56-37a317e7d089">
+    <data-source source="LOCAL" name="hb-01-one-to-one-uni@localhost" uuid="baf1af2c-3f8e-443b-8e98-8827d70f21b5">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/hb-01-one-to-one-uni</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="hb-03-one-to-many@localhost" uuid="b8760f66-3f77-454a-877c-f8344d81bac7">
+    <data-source source="LOCAL" name="hb-03-one-to-many@localhost" uuid="633b7d02-7e1f-4ffd-af93-bfb2a373329e">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/hb-03-one-to-many</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="homework@localhost" uuid="5560dc8f-31d0-4b8c-ac2e-1851e4d39c8a">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/homework</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hb-04-one-to-many-uni@localhost" uuid="1ff53d77-925b-414c-a6ab-ec08e653cae7">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/hb-04-one-to-many-uni</jdbc-url>
     </data-source>
   </component>
 </project>

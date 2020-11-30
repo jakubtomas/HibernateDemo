@@ -1,12 +1,11 @@
-package OneToMany.Demo;
+package EagerVSLazyLoading.Demo;
 
-import OneToMany.entity.Course;
-import OneToMany.entity.Instructor;
-import OneToMany.entity.InstructorDetail;
+import EagerVSLazyLoading.entity.Course;
+import EagerVSLazyLoading.entity.Instructor;
+import EagerVSLazyLoading.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
 
 
 public class CreateCoursesDemo {

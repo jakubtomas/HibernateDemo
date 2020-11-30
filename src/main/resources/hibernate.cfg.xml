@@ -13,9 +13,12 @@
         <!--        one to one bi-directional-->
 <!--        <property name="connection.url">jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&amp;serverTimezone=UTC</property>-->
         <!--        One to many  bi-directional-->
+<!--
         <property name="connection.url">jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&amp;serverTimezone=UTC</property>
-        <property name="connection.username">hbstudent</property>
-        <property name="connection.password">hbstudent</property>
+-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
