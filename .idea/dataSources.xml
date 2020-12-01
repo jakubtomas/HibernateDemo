@@ -25,5 +25,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/hb-04-one-to-many-uni</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hb-05-many-to-many@localhost" uuid="b79a00d9-4d41-46fc-b9ce-42693990a045">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/hb-05-many-to-many</jdbc-url>
+    </data-source>
   </component>
 </project>
